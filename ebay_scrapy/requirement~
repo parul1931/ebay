@@ -1,0 +1,68 @@
+Subject: Python Crawller / Script
+
+
+
+JD:-
+-------------
+What we need  :
+
+-python crawller to retrieve data from a public website
+-design a Azure DB and integrate the output form the crawller
+
+what you need :
+- strong python skills
+-experience with AZURE DB 
+
+Clients reply:-
+-----------------
+The object of this project is to extract data from ebay.co.uk  in the most efficient way possible and avoid ban , and  put that data in to a  Azure SQl DB.
+All data we need is in the product page of ebay.
+We are only interested in the used products ( not
+We will start only with a single category :
+o    Mobile Phones & Communication
+o    > 
+o    Mobile & Smart Phones
+– for testing but we will need a easy way to get the data from all the website
+
+What data we need:
+
+Product Name :
+Item Specifics :
+Categegory:
+Duration of the action:
+*Price:
+Item location :
+Where to they ship :
+Payment Methods:
+Return Details :
+Type of Action :
+No of pics :
+Price :
+Item Condition
+Item Descrition
+Quantaty
+Name of the user :
+No of enquiries
+Time of shipping:
+User Feedback score :
+No of feedbacks
+shop or not :
+
+*Price ;  depending on the type of action it could have 2 prices .
+1.If it is a Buy it Now Action it only was one price
+But depending on quantity we can see if the action was a success or not . Also  if it was a success and the quantity was larger then 1 how many items where sold?
+To see all of this details you must do a little research in  how  ebay is working – I tr
+2. If it is a action we are interested in :
+- Action Duration
+- No of bids
+- The winning bid sum
+-> you can get all of this info if you visit the link of the product after the item action was closed :
+Ex : http://offer.ebay.co.uk/ws/eBayISAPI.dll?ViewBids&item=281942984328&rt=nc&_trksid=p2047675.l2565
+Note : the crawler should run auto and find new products as they are added
+Final Note: we are interested to see if the product was sold or not , at what price , how many pics they sold
+
+Please describe shortly what are the milestones you see in this project and duration.
+Please estimate the cost of the project and when you can start
+Please send me a email : dragosnicolae555@gmail.com
+Thank you,
+CN
